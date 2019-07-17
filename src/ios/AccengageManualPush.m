@@ -1,6 +1,6 @@
 #import "AccengageManualPush.h"
 
-#import <Cordova/CDVAvaailability.h>
+#import <Cordova/CDVAvailability.h>
 
 @implementation AccengageManualPush
 
@@ -8,8 +8,8 @@
 }
 
 - (void)echo:(CDVInvokedUrlCommand *)command {
-    MSString$ message = [command.arguments objectAtIndex:0];
-    MSLog(@"%@", message);
+    NSString* message = [command.arguments objectAtIndex:0];
+    NSLog(@"%@", message);
 }
 
 @end
