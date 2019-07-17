@@ -1,0 +1,27 @@
+{
+    "name": "com.vinci.accengage-manual-push",
+    "description": "Cordova example plugin",
+    "version": "0.0.1",
+    "main": "dist/index.js",
+    "scripts": {
+        "build": "tsc",
+        "build-and-publish": "npm run build && npm publish"
+    },
+    "cordova": {
+        "id": "cordova-plugin-va-push-token-collector",
+        "platforms": [
+            "ios"
+        ]
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/BeliliFahem/cordova-plugin-example"
+    },
+    "keywords": [
+        "ecosystem:cordova",
+        "ecosystem:phonegap"
+    ],
+    "devDependencies": {
+    },
+    "author": "Cordova Example"
+}

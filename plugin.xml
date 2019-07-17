@@ -7,8 +7,8 @@
     <description>A plugin to XXXXXXXXXXX</description>
     <license>MIT</license>
     <keywords>cordova,plugin,accengage,manual,push</keywords>
-    <repo>https://gitlab.vinci-autoroutes.com/DigitalFactory/cordova-plugins/accengage-manual-push.git</repo>
-    <issue>https://gitlab.vinci-autoroutes.com/DigitalFactory/cordova-plugins/accengage-manual-push.git/issues</issue>
+    <repo>https://github.com/BeliliFahem/cordova-plugin-example.git</repo>
+    <issue>https://github.com/BeliliFahem/cordova-plugin-example.git/issues</issue>
  
     <js-module src="www/plugin.js" name="AccengageManualPush">
         <clobbers target="com.vinci.AccengageManualPush" />
