@@ -5,7 +5,7 @@
         version="0.0.1">
     <name>Accengage manual push plugin</name>
     <description>A plugin to XXXXXXXXXXX</description>
-    <license>??????????</license>
+    <license>MIT</license>
     <keywords>cordova,plugin,accengage,manual,push</keywords>
     <repo>https://gitlab.vinci-autoroutes.com/DigitalFactory/cordova-plugins/accengage-manual-push.git</repo>
     <issue>https://gitlab.vinci-autoroutes.com/DigitalFactory/cordova-plugins/accengage-manual-push.git/issues</issue>
@@ -13,24 +13,6 @@
     <js-module src="www/plugin.js" name="AccengageManualPush">
         <clobbers target="com.vinci.AccengageManualPush" />
     </js-module>
-
-    <!-- <platform name="ios">
-        <config-file target="config.xml" parent="/*">
-            <feature name="SimbalPhonegap">
-                <param name="ios-package" value="helloworld" />
-                <param name="stop" value="helloworld" />
-            </feature>
-        </config-file>
-
-        <header-file src="src/ios/helloworld.h" />
-        <source-file src="src/ios/helloworld.m" />
-
-        <framework src="[ NOM D’UN FRAMEWORK ]" weak="true" />
-
-        <framework src="src/ios/frameworks/[ URL DE MON FRAMEWORK ].framework" custom="true" />
-
-        <source-file src="src/ios/ressources/[ URL D’UN FICHIE IMAGE | TEXTE | ETC… ]"/> 
-    </platform> -->
 
     <platform name="ios">
         <config-file target="config.xml" parent="/*">
